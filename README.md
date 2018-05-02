@@ -23,7 +23,7 @@ Depends on the method or management system you plan to use.
 - `$crypt_url` - Your Crypt-Server.
 - `$serial` - This code might need a bit more depending on the manufactures you plan to use. Some show up as `System Serial Number`.
 
-- #### Powershell
+#### Powershell
   - Since the `Get-LoggedOnUser.ps1` file is not signed by a certificate, I am calling `Powershell` with a `ByPass`. This all depends on your execution policy.
     - InfoSec might not like this, so the recommended way is to sign all code deployed.
   - Please ensure these files are in the same directory when executing.
